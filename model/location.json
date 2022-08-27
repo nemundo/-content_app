@@ -1,0 +1,109 @@
+{
+    "app": "Location",
+    "name": "location",
+    "namespace": "Nemundo\\Content\\App\\Location",
+    "is_deleted": false,
+    "model": [
+        {
+            "template": "default",
+            "model_id": "a1c33422-efb0-425b-82b6-c965b0fdbab6",
+            "label": "Address",
+            "class_name": "Address",
+            "table_name": "location_address",
+            "namespace": "Nemundo\\Content\\App\\Location\\Data\\Address",
+            "row_class_name": "",
+            "primary_index": "auto_increment",
+            "is_deleted": false,
+            "type": [
+                {
+                    "type": "text",
+                    "label": "Street",
+                    "field_name": "street",
+                    "variable_name": "street",
+                    "allow_null": false,
+                    "is_deleted": false,
+                    "length": "255"
+                },
+                {
+                    "type": "text",
+                    "label": "Place",
+                    "field_name": "place",
+                    "variable_name": "place",
+                    "allow_null": false,
+                    "is_deleted": false,
+                    "length": "255"
+                }
+            ],
+            "index": []
+        },
+        {
+            "template": "default",
+            "model_id": "11d9877b-2215-4fb8-a995-8d0b4a036f8c",
+            "label": "Location",
+            "class_name": "Location",
+            "table_name": "location_location",
+            "namespace": "Nemundo\\Content\\App\\Location\\Data\\Location",
+            "row_class_name": "",
+            "primary_index": "auto_increment",
+            "is_deleted": false,
+            "type": [
+                {
+                    "type": "text",
+                    "label": "Location",
+                    "field_name": "location",
+                    "variable_name": "location",
+                    "allow_null": true,
+                    "is_deleted": false,
+                    "length": "255"
+                },
+                {
+                    "type": "large_text",
+                    "label": "Description",
+                    "field_name": "description",
+                    "variable_name": "description",
+                    "allow_null": true,
+                    "is_deleted": false
+                },
+                {
+                    "type": "geo_coordinate",
+                    "label": "Geo Coordinate",
+                    "field_name": "geo_coordinate",
+                    "variable_name": "geoCoordinate",
+                    "allow_null": true,
+                    "is_deleted": false
+                }
+            ],
+            "index": []
+        },
+        {
+            "template": "default",
+            "model_id": "4b32f0a6-456f-4c9c-975a-fe2d82478c5a",
+            "label": "Tracking",
+            "class_name": "Tracking",
+            "table_name": "location_tracking",
+            "namespace": "Nemundo\\Content\\App\\Location\\Data\\Tracking",
+            "row_class_name": "",
+            "primary_index": "auto_increment",
+            "is_deleted": false,
+            "type": [
+                {
+                    "type": "date_time",
+                    "label": "Date Time",
+                    "field_name": "date_time",
+                    "variable_name": "dateTime",
+                    "allow_null": false,
+                    "is_deleted": false
+                },
+                {
+                    "type": "geo_coordinate",
+                    "label": "Geo Coordinate",
+                    "field_name": "geo_coordinate",
+                    "variable_name": "geoCoordinate",
+                    "allow_null": false,
+                    "is_deleted": false
+                }
+            ],
+            "index": []
+        }
+    ]
+}

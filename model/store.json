@@ -1,0 +1,107 @@
+{
+    "app": "Store",
+    "name": "store",
+    "namespace": "Nemundo\\Content\\App\\Store",
+    "is_deleted": false,
+    "model": [
+        {
+            "template": "default",
+            "model_id": "f5412626-9130-45d5-b3eb-c6f45e5a48b8",
+            "label": "Large Text Store",
+            "class_name": "LargeTextStore",
+            "table_name": "store_large_text_store",
+            "namespace": "Nemundo\\Content\\App\\Store\\Data\\LargeTextStore",
+            "row_class_name": "",
+            "primary_index": "text_id",
+            "is_deleted": false,
+            "type": [
+                {
+                    "type": "large_text",
+                    "label": "Large Text",
+                    "field_name": "large_text",
+                    "variable_name": "largeText",
+                    "allow_null": false,
+                    "is_deleted": false
+                }
+            ],
+            "index": []
+        },
+        {
+            "template": "default",
+            "model_id": "dac81d77-cc53-49cf-bfea-e7ae664812c3",
+            "label": "Number Store",
+            "class_name": "NumberStore",
+            "table_name": "store_number_store",
+            "namespace": "Nemundo\\Content\\App\\Store\\Data\\NumberStore",
+            "row_class_name": "",
+            "primary_index": "text_id",
+            "is_deleted": false,
+            "type": [
+                {
+                    "type": "number",
+                    "label": "Number",
+                    "field_name": "number",
+                    "variable_name": "number",
+                    "allow_null": false,
+                    "is_deleted": false
+                }
+            ],
+            "index": []
+        },
+        {
+            "template": "default",
+            "model_id": "09d9e1e5-70c2-4c62-93b8-e85a30aabf7c",
+            "label": "Store",
+            "class_name": "Store",
+            "table_name": "store_store",
+            "namespace": "Nemundo\\Content\\App\\Store\\Data\\Store",
+            "row_class_name": "",
+            "primary_index": "auto_increment",
+            "is_deleted": false,
+            "type": [
+                {
+                    "type": "text",
+                    "label": "Unique Name",
+                    "field_name": "unique_name",
+                    "variable_name": "uniqueName",
+                    "allow_null": false,
+                    "is_deleted": false,
+                    "length": "50"
+                },
+                {
+                    "type": "text",
+                    "label": "Store Label",
+                    "field_name": "store_label",
+                    "variable_name": "storeLabel",
+                    "allow_null": false,
+                    "is_deleted": false,
+                    "length": "255"
+                }
+            ],
+            "index": []
+        },
+        {
+            "template": "default",
+            "model_id": "bb9677f8-780f-42cb-94fb-1aef4fcd3a42",
+            "label": "Text Store",
+            "class_name": "TextStore",
+            "table_name": "store_text_store",
+            "namespace": "Nemundo\\Content\\App\\Store\\Data\\TextStore",
+            "row_class_name": "",
+            "primary_index": "text_id",
+            "is_deleted": false,
+            "type": [
+                {
+                    "type": "text",
+                    "label": "Text",
+                    "field_name": "text",
+                    "variable_name": "text",
+                    "allow_null": false,
+                    "is_deleted": false,
+                    "length": "255"
+                }
+            ],
+            "index": []
+        }
+    ]
+}

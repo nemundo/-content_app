@@ -1,0 +1,125 @@
+{
+    "app": "Camera",
+    "name": "camera",
+    "namespace": "Nemundo\\Content\\App\\Camera",
+    "is_deleted": false,
+    "model": [
+        {
+            "template": "default",
+            "model_id": "2a33737b-be1c-430e-b43c-5062b58d072f",
+            "label": "Camera",
+            "class_name": "Camera",
+            "table_name": "camera_camera",
+            "namespace": "Nemundo\\Content\\App\\Camera\\Data\\Camera",
+            "row_class_name": "",
+            "primary_index": "auto_increment",
+            "is_deleted": false,
+            "type": [
+                {
+                    "type": "image",
+                    "label": "Image",
+                    "field_name": "image",
+                    "variable_name": "image",
+                    "allow_null": true,
+                    "is_deleted": false,
+                    "format": [
+                        {
+                            "format_type": "auto_size",
+                            "size": "300"
+                        },
+                        {
+                            "format_type": "fix_width",
+                            "size": "100"
+                        },
+                        {
+                            "format_type": "auto_size",
+                            "size": "1200"
+                        }
+                    ]
+                },
+                {
+                    "type": "text",
+                    "label": "Camera",
+                    "field_name": "camera",
+                    "variable_name": "camera",
+                    "allow_null": true,
+                    "is_deleted": false,
+                    "length": "255"
+                },
+                {
+                    "type": "date_time",
+                    "label": "Date Time",
+                    "field_name": "date_time",
+                    "variable_name": "dateTime",
+                    "allow_null": true,
+                    "is_deleted": false
+                },
+                {
+                    "type": "number",
+                    "label": "Width",
+                    "field_name": "width",
+                    "variable_name": "width",
+                    "allow_null": false,
+                    "is_deleted": false
+                },
+                {
+                    "type": "number",
+                    "label": "Height",
+                    "field_name": "height",
+                    "variable_name": "height",
+                    "allow_null": false,
+                    "is_deleted": false
+                },
+                {
+                    "type": "number",
+                    "label": "Filesize",
+                    "field_name": "filesize",
+                    "variable_name": "filesize",
+                    "allow_null": false,
+                    "is_deleted": false
+                },
+                {
+                    "type": "date",
+                    "label": "Date",
+                    "field_name": "date",
+                    "variable_name": "date",
+                    "allow_null": true,
+                    "is_deleted": false
+                },
+                {
+                    "type": "number",
+                    "label": "Year",
+                    "field_name": "year",
+                    "variable_name": "year",
+                    "allow_null": true,
+                    "is_deleted": false
+                },
+                {
+                    "type": "yes_no",
+                    "label": "Has Coordinate",
+                    "field_name": "has_coordinate",
+                    "variable_name": "hasCoordinate",
+                    "allow_null": false,
+                    "is_deleted": true
+                },
+                {
+                    "type": "yes_no",
+                    "label": "Has Geo Coordinate",
+                    "field_name": "has_geo_coordinate",
+                    "variable_name": "hasGeoCoordinate",
+                    "allow_null": false,
+                    "is_deleted": false
+                },
+                {
+                    "type": "geo_coordinate",
+                    "label": "Geo Coordinate",
+                    "field_name": "geo_coordinate",
+                    "variable_name": "geoCoordinate",
+                    "allow_null": true,
+                    "is_deleted": false
+                }
+            ],
+            "index": []
+        }
+    ]
+}

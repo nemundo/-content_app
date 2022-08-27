@@ -1,0 +1,54 @@
+{
+    "app": "Html",
+    "name": "html",
+    "namespace": "Nemundo\\Content\\App\\Html",
+    "is_deleted": false,
+    "model": [
+        {
+            "template": "default",
+            "model_id": "577da7c8-9253-4277-aa71-caa1a5c71cf2",
+            "label": "Iframe Widget",
+            "class_name": "IframeWidget",
+            "table_name": "html_iframe_widget",
+            "namespace": "Nemundo\\Content\\App\\Html\\Data\\IframeWidget",
+            "row_class_name": "",
+            "primary_index": "auto_increment",
+            "is_deleted": false,
+            "type": [
+                {
+                    "type": "text",
+                    "label": "Src",
+                    "field_name": "src",
+                    "variable_name": "src",
+                    "allow_null": false,
+                    "is_deleted": false,
+                    "length": "255"
+                }
+            ],
+            "index": []
+        },
+        {
+            "template": "default",
+            "model_id": "b06b2062-4699-45dc-a5e5-661f3877383d",
+            "label": "Img Property",
+            "class_name": "ImgProperty",
+            "table_name": "html_img_property",
+            "namespace": "Nemundo\\Content\\App\\Html\\Data\\ImgProperty",
+            "row_class_name": "",
+            "primary_index": "auto_increment",
+            "is_deleted": false,
+            "type": [
+                {
+                    "type": "text",
+                    "label": "Src",
+                    "field_name": "src",
+                    "variable_name": "src",
+                    "allow_null": false,
+                    "is_deleted": false,
+                    "length": "255"
+                }
+            ],
+            "index": []
+        }
+    ]
+}

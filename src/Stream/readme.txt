@@ -1,0 +1,1 @@
+MicrobloggingContntType ConfigAuthor --> UsergetSource()getSourceImage()SourceIndexTraitStreamIndexnotwendig?

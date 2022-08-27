@@ -1,0 +1,1 @@
+<?phpnamespace Nemundo\Content\App\File\Page;use Nemundo\Content\App\File\Content\Document\DocumentType;use Nemundo\Content\App\File\Template\FileTemplate;class DocumentPage extends FileTemplate{    public function getContent()    {        (new DocumentType())->getAdmin($this);        return parent::getContent();    }}

@@ -1,0 +1,1 @@
+### Submodudle Installation```git submodule add https://github.com/nemundo/content_app.git lib/content_app```### config.php```$lib = new Library($autoload);$lib->source = 'c:/git/content_app/src/';$lib->namespace = 'Nemundo\\Content\\App';```

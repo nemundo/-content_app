@@ -1,0 +1,1 @@
+<?phprequire "config.php";(new \Nemundo\Content\App\Dashboard\Application\DashboardApplication())->installApp();

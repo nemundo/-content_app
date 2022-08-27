@@ -1,0 +1,1 @@
+<?phprequire __DIR__ .'/../config.php';(new \Nemundo\Content\App\ImageGallery\Application\ImageGalleryApplication())->reinstallApp()->setAppMenuActive();(new \Nemundo\Content\AppTest\ImageGallery\TestImageGalleryType())->saveType();

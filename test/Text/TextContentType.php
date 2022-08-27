@@ -1,0 +1,1 @@
+<?phprequire __DIR__ . '/../config.php';$type = new \Nemundo\Content\App\Text\Content\Text\TextType();$type->text = 'hello world';$type->saveType();

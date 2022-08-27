@@ -1,0 +1,1 @@
+<?phpnamespace Nemundo\Content\App\File\Page;use Nemundo\Content\App\File\Content\Image\ImageType;use Nemundo\Content\App\File\Template\FileTemplate;class ImagePage extends FileTemplate{    public function getContent()    {        (new ImageType())->getAdmin($this);        return parent::getContent();    }}

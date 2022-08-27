@@ -1,0 +1,1 @@
+<?phpnamespace Nemundo\Content\App\Print\Install;use Nemundo\App\Application\Type\Install\AbstractInstall;use Nemundo\Content\Action\Setup\ActionSetup;use Nemundo\Content\App\Print\Action\PrintContentAction;class PrintInstall extends AbstractInstall{    public function install()    {        (new ActionSetup())->addContentAction(new PrintContentAction());    }}

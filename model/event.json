@@ -1,0 +1,82 @@
+{
+    "app": "Event",
+    "name": "event",
+    "namespace": "Nemundo\\Content\\App\\Event",
+    "is_deleted": false,
+    "model": [
+        {
+            "template": "default",
+            "model_id": "00a20ccd-cb9b-4378-95a0-336a2d639e3e",
+            "label": "Event",
+            "class_name": "Event",
+            "table_name": "event_event",
+            "namespace": "Nemundo\\Content\\App\\Event\\Data\\Event",
+            "row_class_name": "",
+            "primary_index": "auto_increment",
+            "is_deleted": false,
+            "type": [
+                {
+                    "type": "text",
+                    "label": "Event",
+                    "field_name": "event",
+                    "variable_name": "event",
+                    "allow_null": false,
+                    "is_deleted": false,
+                    "length": "255"
+                },
+                {
+                    "type": "date_time",
+                    "label": "Date Time",
+                    "field_name": "date_time",
+                    "variable_name": "dateTime",
+                    "allow_null": false,
+                    "is_deleted": false
+                },
+                {
+                    "type": "large_text",
+                    "label": "Description",
+                    "field_name": "description",
+                    "variable_name": "description",
+                    "allow_null": false,
+                    "is_deleted": false
+                }
+            ],
+            "index": []
+        },
+        {
+            "template": "default",
+            "model_id": "9797f224-58fd-401f-bf2f-6a6527057409",
+            "label": "Event Content Type",
+            "class_name": "EventContentType",
+            "table_name": "event_event_content_type",
+            "namespace": "Nemundo\\Content\\App\\Event\\Data\\EventContentType",
+            "row_class_name": "",
+            "primary_index": "auto_increment",
+            "is_deleted": false,
+            "type": [
+                {
+                    "type": "external",
+                    "label": "Content Type",
+                    "field_name": "content_type",
+                    "variable_name": "contentType",
+                    "allow_null": false,
+                    "is_deleted": false,
+                    "external_model_id": "69c1a9f4-3412-4446-92a4-2e81a75bed3f"
+                }
+            ],
+            "index": []
+        },
+        {
+            "template": "default",
+            "model_id": "b0da3fc6-213f-4595-acdd-70c0832cbd26",
+            "label": "Event Widget",
+            "class_name": "EventWidget",
+            "table_name": "event_event_widget",
+            "namespace": "Nemundo\\Content\\App\\Event\\Data\\EventWidget",
+            "row_class_name": "",
+            "primary_index": "auto_increment",
+            "is_deleted": false,
+            "index": []
+        }
+    ]
+}

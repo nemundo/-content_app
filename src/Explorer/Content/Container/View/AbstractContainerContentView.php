@@ -1,0 +1,1 @@
+<?phpnamespace Nemundo\Content\App\Explorer\Content\Container\View;use Nemundo\Content\App\Explorer\Content\Container\ContainerType;use Nemundo\Content\View\AbstractContentView;abstract class AbstractContainerContentView extends AbstractContentView{    /**     * @var ContainerType     */    public $contentType;}

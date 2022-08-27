@@ -1,0 +1,1 @@
+<?phprequire 'config.php';(new \Nemundo\Db\Provider\MySql\Database\MySqlDatabase())->emptyDatabase();(new \Nemundo\Content\App\Base\Install\ContentAppApplicationInstall())->install();
