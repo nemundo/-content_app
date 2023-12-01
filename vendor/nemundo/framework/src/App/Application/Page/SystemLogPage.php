@@ -1,0 +1,1 @@
+<?phpnamespace Nemundo\App\Application\Page;use Nemundo\App\Application\Template\ApplicationTemplate;use Nemundo\App\SystemLog\Com\Container\SystemLogContainer;class SystemLogPage extends ApplicationTemplate{    public function getContent()    {        $table=new SystemLogContainer($this);        return parent::getContent();    }}

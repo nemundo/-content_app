@@ -1,0 +1,1 @@
+<?phprequire __DIR__.'/../config.php';//$reader = new \Nemundo\Db\Reader\DataReader()

@@ -1,0 +1,1 @@
+<?phpnamespace Nemundo\Com\Package\Type;abstract class AbstractImagePackage extends AbstractPackage{    public function __construct()    {        parent::__construct();        $this->prefix = 'img';    }}

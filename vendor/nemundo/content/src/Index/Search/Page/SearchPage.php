@@ -1,0 +1,1 @@
+<?phpnamespace Nemundo\Content\Index\Search\Page;use Nemundo\Com\Template\AbstractTemplateDocument;use Nemundo\Content\Index\Search\Com\Container\SearchIndexContainer;class SearchPage extends AbstractTemplateDocument{    public function getContent()    {        new SearchIndexContainer($this);        return parent::getContent();    }}

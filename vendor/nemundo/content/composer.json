@@ -1,0 +1,22 @@
+{
+  "name": "nemundo/content",
+  "description": "Content",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "nemundo",
+      "email": "urs.lang@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "nemundo/framework": "*",
+    "nemundo/kml": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nemundo\\Content\\": "src/",
+      "Nemundo\\ContentTest\\": "test/"
+    }
+  }
+}

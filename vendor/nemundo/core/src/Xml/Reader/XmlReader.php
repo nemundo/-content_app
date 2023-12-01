@@ -1,0 +1,1 @@
+<?phpnamespace Nemundo\Core\Xml\Reader;class XmlReader extends AbstractXmlReader{    public function fromText($xmlText)    {        return parent::fromText($xmlText);    }    public function fromFilename($filename)    {        return parent::fromFilename($filename);    }    public function fromUrl($url)    {        return parent::fromUrl($url);    }}

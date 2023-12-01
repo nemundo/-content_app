@@ -1,0 +1,1 @@
+<?phpnamespace Nemundo\Admin\Com\Button;use Nemundo\Com\Html\Hyperlink\SiteHyperlink;class AdminSiteButton extends SiteHyperlink{    public function getContent()    {        $this->addCssClass('admin-button');        return parent::getContent();    }}

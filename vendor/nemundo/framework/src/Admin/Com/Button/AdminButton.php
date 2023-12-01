@@ -1,0 +1,1 @@
+<?phpnamespace Nemundo\Admin\Com\Button;use Nemundo\Html\Button\Button;class AdminButton extends Button{    public function getContent()    {        $this->addCssClass('admin-button');        return parent::getContent();    }}

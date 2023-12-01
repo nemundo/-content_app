@@ -1,0 +1,1 @@
+# Nemundo HtmlGenerate Html Code## Installation ```composer require nemundo/html```## Example```$html = new \Nemundo\Html\Document\HtmlDocument();$html->title = 'Document Example';$h1 = new \Nemundo\Html\Heading\H1($html);$h1->content = 'Hello World!';$p = new \Nemundo\Html\Paragraph\Paragraph($html);$p->content = 'Lorem ..';$html->render();```

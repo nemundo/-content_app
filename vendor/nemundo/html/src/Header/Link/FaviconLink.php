@@ -1,0 +1,1 @@
+<?phpnamespace Nemundo\Html\Header\Link;class FaviconLink extends AbstractLink{    public function getContent()    {        $this->rel = 'icon';        $this->addAttribute('type', 'image/x-icon');        return parent::getContent();    }}

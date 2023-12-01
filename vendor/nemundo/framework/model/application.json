@@ -1,0 +1,138 @@
+{
+    "app": "Application",
+    "name": "application",
+    "namespace": "Nemundo\\App\\Application",
+    "is_deleted": false,
+    "model": [
+        {
+            "template": "default",
+            "model_id": "be58745e-78c3-4c3a-aadc-d2b26d233518",
+            "label": "Application",
+            "class_name": "Application",
+            "table_name": "application_application",
+            "namespace": "Nemundo\\App\\Application\\Data\\Application",
+            "row_class_name": "Nemundo\\App\\Application\\Row\\ApplicationCustomRow",
+            "primary_index": "text_id",
+            "is_deleted": false,
+            "type": [
+                {
+                    "type": "text",
+                    "label": "Application",
+                    "field_name": "application",
+                    "variable_name": "application",
+                    "allow_null": false,
+                    "is_deleted": false,
+                    "length": "255"
+                },
+                {
+                    "type": "yes_no",
+                    "label": "Setup Status",
+                    "field_name": "setup_status",
+                    "variable_name": "setupStatus",
+                    "allow_null": false,
+                    "is_deleted": false
+                },
+                {
+                    "type": "text",
+                    "label": "Application Class",
+                    "field_name": "application_class",
+                    "variable_name": "applicationClass",
+                    "allow_null": false,
+                    "is_deleted": false,
+                    "length": "255"
+                },
+                {
+                    "type": "yes_no",
+                    "label": "Install",
+                    "field_name": "install",
+                    "variable_name": "install",
+                    "allow_null": false,
+                    "is_deleted": false
+                },
+                {
+                    "type": "external",
+                    "label": "Project",
+                    "field_name": "project",
+                    "variable_name": "project",
+                    "allow_null": true,
+                    "is_deleted": false,
+                    "external_model_id": "024d7582-f6bc-4773-805a-db89d1faf208"
+                },
+                {
+                    "type": "yes_no",
+                    "label": "App Menu",
+                    "field_name": "app_menu",
+                    "variable_name": "appMenu",
+                    "allow_null": false,
+                    "is_deleted": false
+                },
+                {
+                    "type": "yes_no",
+                    "label": "Admin Menu",
+                    "field_name": "admin_menu",
+                    "variable_name": "adminMenu",
+                    "allow_null": false,
+                    "is_deleted": false
+                }
+            ],
+            "index": [
+                {
+                    "index_name": "install_application",
+                    "index_type": "index",
+                    "field_name": [
+                        "install",
+                        "application"
+                    ]
+                }
+            ]
+        },
+        {
+            "template": "default",
+            "model_id": "024d7582-f6bc-4773-805a-db89d1faf208",
+            "label": "Project",
+            "class_name": "Project",
+            "table_name": "application_project",
+            "namespace": "Nemundo\\App\\Application\\Data\\Project",
+            "row_class_name": "Nemundo\\App\\Application\\Row\\ProjectCustomRow",
+            "primary_index": "auto_increment",
+            "is_deleted": false,
+            "type": [
+                {
+                    "type": "text",
+                    "label": "Project",
+                    "field_name": "project",
+                    "variable_name": "project",
+                    "allow_null": false,
+                    "is_deleted": false,
+                    "length": "255"
+                },
+                {
+                    "type": "text",
+                    "label": "Php Class",
+                    "field_name": "php_class",
+                    "variable_name": "phpClass",
+                    "allow_null": false,
+                    "is_deleted": false,
+                    "length": "255"
+                },
+                {
+                    "type": "yes_no",
+                    "label": "Setup Status",
+                    "field_name": "setup_status",
+                    "variable_name": "setupStatus",
+                    "allow_null": false,
+                    "is_deleted": false
+                }
+            ],
+            "index": [
+                {
+                    "index_name": "php_class",
+                    "index_type": "unique_index",
+                    "field_name": [
+                        "php_class"
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{    "name": "nemundo/kml",    "autoload": {        "psr-4": {            "Nemundo\\Geo\\Kml\\": "src/"        }    },    "minimum-stability": "dev",    "require": {        "nemundo/core": "*",        "nemundo/html": "*"    }}

@@ -1,0 +1,1 @@
+<?phpnamespace Nemundo\App\System\Site;use Nemundo\App\System\Page\SystemPage;use Nemundo\Web\Site\AbstractSite;class SystemSite extends AbstractSite{    protected function loadSite()    {        $this->title = 'System';        $this->url = 'system';    }    public function loadContent()    {        (new SystemPage())->render();    }}

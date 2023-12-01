@@ -1,0 +1,1 @@
+<?phpnamespace Nemundo\Package\FontAwesome\Icon;use Nemundo\Admin\Com\Icon\AdminIcon;use Nemundo\Package\FontAwesome\AbstractFontAwesomeIcon;class DeleteIcon extends AdminIcon  // AbstractFontAwesomeIcon{    protected function loadContainer()    {        $this->icon = 'trash';        parent::loadContainer();    }}

@@ -8,12 +8,10 @@
       "email": "urs.lang@gmail.com"
     }
   ],
-  "require": {
-    "nemundo/content": "*",
-    "laminas/laminas-http": "^2.14",
-    "laminas/laminas-feed": "^2.14"
-  },
   "minimum-stability": "dev",
+  "require": {
+    "nemundo/content": "*"
+  },
   "autoload": {
     "psr-4": {
       "Nemundo\\Content\\App\\": "src/",

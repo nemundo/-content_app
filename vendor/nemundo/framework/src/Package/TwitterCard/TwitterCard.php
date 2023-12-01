@@ -1,0 +1,1 @@
+<?phpnamespace Nemundo\Package\TwitterCard;use Nemundo\Package\OpenGraph\AbstractOpenGraph;class TwitterCard extends AbstractOpenGraph{    public function getContent()    {        $this->prefix = 'twitter';        $this->propertyName = 'name';        $this->addMeta('card', 'summary');        return parent::getContent();    }}
