@@ -13,6 +13,7 @@
     "laminas/laminas-http": "^2.14",
     "laminas/laminas-feed": "^2.14"
   },
+  "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
       "Nemundo\\Content\\App\\": "src/",
