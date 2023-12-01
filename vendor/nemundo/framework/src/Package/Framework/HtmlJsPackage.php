@@ -1,1 +1,0 @@
-<?phpnamespace Nemundo\Package\Framework;use Nemundo\Com\Package\Type\AbstractJsPackage;use Nemundo\Html\HtmlRepository;class HtmlJsPackage extends AbstractJsPackage{    protected function loadPackage()    {        $this->project = new HtmlRepository();        $this->packageName = 'html';    }}

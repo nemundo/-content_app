@@ -1,1 +1,0 @@
-<?phpnamespace Nemundo\App\Linux\Local;use Nemundo\App\Linux\Cmd\AbstractLocalCmd;use Nemundo\Core\Local\AbstractLocalCommand;class MkDirLocal extends AbstractLocalCmd{    public $path;    protected function loadCommand()    {        $this->addCommandLine('md ' . $this->path);    }    public function createPath() {    }}

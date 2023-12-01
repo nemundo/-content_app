@@ -1,1 +1,0 @@
-<?phprequire '../../config.php';$html = new \Nemundo\Package\Bootstrap\Document\BootstrapDocument();$table = new \Nemundo\Package\Bootstrap\Table\BootstrapClickableTable($html);$row = new \Nemundo\Package\Bootstrap\Table\BootstrapClickableTableRow($table);$row->addText('Text1');$row->addClickableUrl('http://example.com');$html->render();

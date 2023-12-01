@@ -1,1 +1,0 @@
-<?phprequire __DIR__ . '/../config.php';$fileCopy = new \Nemundo\Core\File\FileCopy();$fileCopy->sourceFilename = 'D:\Tmp\Dev.pdf';$fileCopy->destinationFilename = 'D:\Tmp\Dev2.pdf';$fileCopy->copyFile();

@@ -1,1 +1,0 @@
-<?phpnamespace Nemundo\Com\FormBuilder\UrlReferer;use Nemundo\Core\Http\Request\Post\AbstractPostRequest;use Nemundo\Web\Parameter\AbstractUrlParameter;class UrlRefererParameter extends AbstractUrlParameter{    protected function loadParameter()    {        $this->parameterName = 'url_referer';    }}

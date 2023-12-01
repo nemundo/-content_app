@@ -1,1 +1,0 @@
-<?phpnamespace Nemundo\User\Builder;use Nemundo\Core\Base\AbstractBase;abstract class AbstractUserBuilder extends AbstractBase{    protected $userId;    public function __construct($userId = null)    {        $this->userId = $userId;    }}

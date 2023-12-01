@@ -1,1 +1,0 @@
-speichern womodel path

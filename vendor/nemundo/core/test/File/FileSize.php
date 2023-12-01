@@ -1,1 +1,0 @@
-<?phprequire __DIR__ . '/../config.php';$fileSize = new \Nemundo\Core\File\FileSize(1023);(new \Nemundo\Core\Debug\Debug())->write($fileSize->getText());

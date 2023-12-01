@@ -1,1 +1,0 @@
-<?phpnamespace Nemundo\Content\Index\Log\Site;use Nemundo\Content\Index\Log\Page\LogPage;use Nemundo\Web\Site\AbstractSite;class LogSite extends AbstractSite{    protected function loadSite()    {        $this->title = 'Content Log';        $this->url = 'content-log';    }    public function loadContent()    {        (new LogPage())->render();    }}

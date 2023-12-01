@@ -1,1 +1,0 @@
-<?phprequire __DIR__ . '/../config.php';$value = '102.405';  // 100.444444;  // 6777.44;$second = new \Nemundo\Core\Time\Second($value);(new \Nemundo\Core\Debug\Debug())->write($second->getText());(new \Nemundo\Core\Debug\Debug())->write($second->getMinuteSecond());

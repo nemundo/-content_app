@@ -1,1 +1,0 @@
-<?phpnamespace Nemundo\Svg;class Polygon{}

@@ -1,1 +1,0 @@
-<?phpnamespace Nemundo\Model\Path;use Nemundo\Core\Path\AbstractPath;use Nemundo\Model\ModelConfig;class RedirectDataPath extends AbstractPath{    protected function loadPath()    {        $this->addPath(ModelConfig::$redirectDataPath);    }}

@@ -1,1 +1,0 @@
-<?phpnamespace Nemundo\Core\Json\Document;class JsonDocument extends AbstractJsonDocument{    /**     * @var string     */    public $filename;}

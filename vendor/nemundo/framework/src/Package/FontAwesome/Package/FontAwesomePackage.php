@@ -1,1 +1,0 @@
-<?phpnamespace Nemundo\Package\FontAwesome\Package;use Nemundo\Com\Package\Type\AbstractAssetPackage;use Nemundo\FrameworkProject;class FontAwesomePackage extends AbstractAssetPackage{    protected function loadPackage()    {        $this->project = new FrameworkProject();        $this->packageName = 'fontawesome';        $this->addCss('css/all.css');    }}

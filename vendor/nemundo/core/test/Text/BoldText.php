@@ -1,1 +1,0 @@
-<?phprequire __DIR__ . '/../config.php';$boldText = new \Nemundo\Core\Text\BoldText();$boldText->addKeyword('zrh')->addKeyword('switzerland');$output = $boldText->getBoldText('Airport ZRH LSZH Switzerland');(new \Nemundo\Core\Debug\Debug())->write($output);

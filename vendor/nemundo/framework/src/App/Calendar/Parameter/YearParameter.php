@@ -1,1 +1,0 @@
-<?phpnamespace Nemundo\App\Calendar\Parameter;use Nemundo\Web\Parameter\AbstractUrlParameter;class YearParameter extends AbstractUrlParameter{    protected function loadParameter()    {        $this->parameterName = 'year';    }}

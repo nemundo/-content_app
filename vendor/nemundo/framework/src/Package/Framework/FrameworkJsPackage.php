@@ -1,1 +1,0 @@
-<?phpnamespace Nemundo\Package\Framework;use Nemundo\Com\Package\Type\AbstractJsPackage;use Nemundo\FrameworkProject;class FrameworkJsPackage extends AbstractJsPackage{    protected function loadPackage()    {        $this->project = new FrameworkProject();        $this->packageName = 'framework';    }}

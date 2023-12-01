@@ -1,1 +1,0 @@
-<?phpnamespace Nemundo\Package\Echarts\Package;use Nemundo\Com\Package\Type\AbstractAssetPackage;use Nemundo\FrameworkProject;class EchartsPackage extends AbstractAssetPackage{    protected function loadPackage()    {        $this->project = new FrameworkProject();        $this->packageName = 'echarts';        $this->addJs('echarts.common.min.js');    }}

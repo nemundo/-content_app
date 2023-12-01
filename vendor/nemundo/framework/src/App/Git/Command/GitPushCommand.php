@@ -1,1 +1,0 @@
-<?phpnamespace Nemundo\App\Git\Command;class GitPushCommand extends AbstractGitCommand{    public function getCommandList()    {        $this->clearCommand();        $this->addCommandLine('cd ' . $this->path);        $this->addCommandLine('git push');        return parent::getCommandList();    }}

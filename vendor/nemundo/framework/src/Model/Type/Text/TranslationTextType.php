@@ -1,1 +1,0 @@
-<?phpnamespace Nemundo\Model\Type\Text;class TranslationTextType extends TextType{}

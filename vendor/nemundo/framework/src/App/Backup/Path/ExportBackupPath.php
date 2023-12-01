@@ -1,1 +1,0 @@
-<?phpnamespace Nemundo\App\Backup\Path;class ExportBackupPath extends BackupPath{    protected function loadPath()    {        parent::loadPath();        $this->addPath('export');    }}

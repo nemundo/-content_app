@@ -1,1 +1,0 @@
-<?phpnamespace Nemundo\App\SystemLog\Site;use Nemundo\App\SystemLog\Page\SystemLogPage;use Nemundo\Web\Site\AbstractSite;class SystemLogSite extends AbstractSite{    protected function loadSite()    {        $this->title = 'System Log';        $this->url = 'system-log';    }    public function loadContent()    {        (new SystemLogPage())->render();    }}

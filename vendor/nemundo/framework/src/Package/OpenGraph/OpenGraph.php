@@ -1,1 +1,0 @@
-<?phpnamespace Nemundo\Package\OpenGraph;class OpenGraph extends AbstractOpenGraph{    public $pageTitle;    public $pageDescription;    public $pageImage;    public function getContent()    {        $this->prefix = 'og';        return parent::getContent();    }}

@@ -1,1 +1,0 @@
-<?phpnamespace Nemundo\Com\Template;class ResponsiveHtmlDocument extends AbstractResponsiveHtmlDocument{}

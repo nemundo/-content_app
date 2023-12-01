@@ -1,1 +1,0 @@
-<?phprequire '../../vendor/autoload.php';$json = new \Nemundo\Core\Json\Response\JsonResponse();$json->addRow('hello world');$json->render();

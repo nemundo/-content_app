@@ -1,1 +1,0 @@
-<?phpnamespace Nemundo\Admin\Com\Title;use Nemundo\Html\Block\ContentDiv;class AdminTitle extends ContentDiv{    public function getContent()    {        $this->addCssClass('admin-title');        return parent::getContent();    }}

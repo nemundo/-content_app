@@ -1,1 +1,0 @@
-<?phpnamespace Nemundo\Svg;use Nemundo\Core\Base\AbstractBase;class Coordinate extends AbstractBase{    public $x;    public $y;}

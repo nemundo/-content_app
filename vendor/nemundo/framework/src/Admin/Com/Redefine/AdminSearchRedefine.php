@@ -1,1 +1,0 @@
-<?phpnamespace Nemundo\Admin\Com\Redefine;use Nemundo\Web\Site\AbstractSite;class AdminSearchRedefine extends AbstractAdminSearchRedefine{    public function addItemSite(AbstractSite $site, $count = null)    {        parent::addItemSite($site, $count);    }}

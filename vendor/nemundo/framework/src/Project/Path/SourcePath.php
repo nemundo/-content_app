@@ -1,1 +1,0 @@
-<?phpnamespace Nemundo\Project\Path;class SourcePath extends ProjectPath{    protected function loadPath()    {        parent::loadPath();        $this->addPath('source');    }}

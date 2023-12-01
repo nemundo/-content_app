@@ -1,1 +1,0 @@
-<?phpnamespace Nemundo\App\Composer\Library;class ComposerLibrary{    const MAIL = 'symfony/mailer';  // 'swiftmailer/swiftmailer';    const EXCEL = 'phpoffice/phpspreadsheet';    const WORD = 'phpoffice/phpword';    const RSS_HTTP = 'laminas/laminas-http';    const RSS_FEED = 'laminas/laminas-feed';}

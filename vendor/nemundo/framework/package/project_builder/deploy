@@ -1,3 +1,0 @@
-git pull
-php bin/composer.phar update
-php bin/setup.php
