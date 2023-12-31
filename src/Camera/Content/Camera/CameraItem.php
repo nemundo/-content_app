@@ -93,7 +93,7 @@ use DownloadIndexTrait;
     }
 
 
-    public function getCoordinate()
+    public function getGeoCoordinate()
     {
         return $this->getDataRow()->geoCoordinate;
     }
