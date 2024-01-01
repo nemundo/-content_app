@@ -10,7 +10,7 @@ use Nemundo\Content\Type\AbstractContentItem;
 class AudioItem extends AbstractContentItem
 {
 
-    use DownloadIndexTrait;
+    //use DownloadIndexTrait;
 
     protected function loadItem()
     {
@@ -39,7 +39,7 @@ class AudioItem extends AbstractContentItem
     }
 
 
-    public function getDownloadUrl()
+  /*  public function getDownloadUrl()
     {
         return $this->getDataRow()->audio->getUrl();
     }
@@ -53,6 +53,6 @@ class AudioItem extends AbstractContentItem
         $data['url'] = $this->getDataRow()->audio->getUrl();
         return $data;
 
-    }
+    }*/
 
 }
