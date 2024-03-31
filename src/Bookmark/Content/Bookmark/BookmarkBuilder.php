@@ -39,7 +39,7 @@ class BookmarkBuilder extends AbstractContentBuilder
         $this->description = $ogParser->description;
 
         if ($ogParser->hasImage) {
-            $this->image->fromUrl($ogParser->imageUrl);
+            //$this->image->fromUrl($ogParser->imageUrl);
         }
 
         if ($this->title == '') {

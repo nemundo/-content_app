@@ -1,1 +1,1 @@
-<?phprequire "config.php";(new \Nemundo\Com\Package\Setup\PackageSetup())    ->addPackage(new \Nemundo\Package\Dropzone\DropzonePackage());
+<?phprequire "config.php";(new \Nemundo\Com\Package\Setup\PackageSetup())    ->addPackage(new \Nemundo\Package\CkEditor5\CkEditor5Package())    ->addPackage(new \Nemundo\Package\Dropzone\DropzonePackage());
